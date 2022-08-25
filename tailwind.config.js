@@ -6,7 +6,7 @@ module.exports = {
       pattern: /.*/,
     },
   ],
-  theme: {
+  /*theme: {
     colors: {
       'blue': '#2b6cb0',
       'white': '#fffff',
@@ -34,7 +34,7 @@ module.exports = {
         '4xl': '2rem',
       }
     }
-  },
+  },*/
   plugins: [
     require('@tailwindcss/forms')
   ]
