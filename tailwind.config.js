@@ -8,15 +8,18 @@ module.exports = {
   ],
   theme: {
     colors: {
-      'blue': '#1fb6ff',
-      'purple': '#7e5bef',
-      'pink': '#ff49db',
-      'orange': '#ff7849',
-      'green': '#13ce66',
-      'yellow': '#ffc82c',
-      'gray-dark': '#273444',
-      'gray': '#8492a6',
-      'gray-light': '#d3dce6',
+      'blue': '#2b6cb0',
+      'white': '#fffff',
+      'red': '#c53030',
+      'black': '#000000',
+      'purple': '#6b46c1',
+      'pink': '#b83280',
+      'orange': '#f6ad55',
+      'green': '#68d391',
+      'yellow': '#ecc94b',
+      'gray-dark': '#2d3748',
+      'gray': '#718096',
+      'gray-light': '#cbd5e0',
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
@@ -32,5 +35,7 @@ module.exports = {
       }
     }
   },
-  plugins: []
+  plugins: [
+    require('@tailwindcss/forms')
+  ]
 }

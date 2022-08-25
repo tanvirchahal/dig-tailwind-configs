@@ -3,6 +3,7 @@
     "minify-css": "postcss dist/output.css > dist/output.min.css"
   },
   "devDependencies": {
+    "@tailwindcss/forms": "^0.5.2",
     "css-minify": "^2.0.0",
     "cssnano": "^5.1.13",
     "install": "^0.13.0",
